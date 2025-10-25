@@ -1452,47 +1452,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Relay_SPST_Latching_2coil"
+		(symbol "Relay:Relay_SPST_Latching_2coil_Combined_SR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 12.065 3.81 0)
+				(at 12.954 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Relay_SPST_Latching_2coil"
-				(at 11.43 1.27 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 33.655 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Relay SPST, bistable, double-coil, EN50005"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1501,7 +1481,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "1P1T single pole throw latching"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1510,7 +1490,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay?SPST*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1519,10 +1499,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Relay_SPST_Latching_2coil_0_1"
+			(symbol "Relay_SPST_Latching_2coil_Combined_SR_0_1"
 				(polyline
 					(pts
-						(xy -7.62 5.08) (xy -7.62 1.905)
+						(xy -7.62 -3.81) (xy -7.62 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -1534,7 +1514,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -5.08) (xy -7.62 -1.905)
+						(xy -5.08 6.35) (xy -5.08 3.175)
 					)
 					(stroke
 						(width 0)
@@ -1546,19 +1526,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.54 -1.905)
+						(xy -2.54 -3.81) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -1569,28 +1537,10 @@
 					)
 				)
 			)
-			(symbol "Relay_SPST_Latching_2coil_1_0"
-				(text "S+"
-					(at -8.636 2.794 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(text "R+"
-					(at -3.556 2.794 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "Relay_SPST_Latching_2coil_1_1"
+			(symbol "Relay_SPST_Latching_2coil_Combined_SR_1_1"
 				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
+					(start -10.16 6.35)
+					(end 10.16 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1600,8 +1550,8 @@
 					)
 				)
 				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
+					(start -8.255 3.175)
+					(end -1.905 -0.635)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1612,19 +1562,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -1.905) (xy -5.715 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -1.905) (xy -2.54 1.905)
+						(xy -7.62 -0.635) (xy -5.715 3.175)
 					)
 					(stroke
 						(width 0.254)
@@ -1636,7 +1574,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0) (xy -1.27 0)
+						(xy -4.445 -0.635) (xy -2.54 3.175)
 					)
 					(stroke
 						(width 0.254)
@@ -1648,7 +1586,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 0) (xy 0 0)
+						(xy -1.905 1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1660,7 +1598,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0) (xy 1.27 0)
+						(xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1672,7 +1610,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 0) (xy 2.54 0)
+						(xy 0.635 1.27) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1684,7 +1622,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 0) (xy 3.81 0)
+						(xy 0.635 1.27) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1696,7 +1634,31 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
+						(xy 1.905 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 3.175 5.08)
 					)
 					(stroke
 						(width 0.508)
@@ -1708,7 +1670,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
+						(xy 5.08 -1.27) (xy 5.08 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -1720,7 +1682,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 3.81) (xy 7.62 5.08)
+						(xy 7.62 5.08) (xy 7.62 6.35)
 					)
 					(stroke
 						(width 0)
@@ -1732,7 +1694,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 3.81) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+						(xy 7.62 5.08) (xy 7.62 3.81) (xy 6.985 4.445) (xy 7.62 5.08)
 					)
 					(stroke
 						(width 0)
@@ -1742,8 +1704,32 @@
 						(type none)
 					)
 				)
+				(text "S-"
+					(at -8.636 -1.778 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "+"
+					(at -4.572 3.81 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "R-"
+					(at -3.556 -1.778 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
 				(pin passive line
-					(at -7.62 7.62 270)
+					(at -7.62 -6.35 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1752,7 +1738,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1761,7 +1747,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -7.62 90)
+					(at -5.08 8.89 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1770,7 +1756,7 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1779,7 +1765,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 7.62 270)
+					(at -2.54 -6.35 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1788,7 +1774,7 @@
 							)
 						)
 					)
-					(number "B1"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1797,7 +1783,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -7.62 90)
+					(at 5.08 -6.35 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1806,7 +1792,7 @@
 							)
 						)
 					)
-					(number "B2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1815,7 +1801,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 90)
+					(at 7.62 8.89 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1824,25 +1810,7 @@
 							)
 						)
 					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2668,12 +2636,6 @@
 		(uuid "1794cb6d-3fe0-4d26-ab1c-59b52bdb97a8")
 	)
 	(junction
-		(at 63.5 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c603380-cbe7-44c1-8ff4-bd6054557566")
-	)
-	(junction
 		(at 120.65 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2704,12 +2666,6 @@
 		(uuid "400b6fe3-aafe-4b2e-a29e-c03e257e50c5")
 	)
 	(junction
-		(at 63.5 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cd05430-ab69-4d89-8319-2c921647c8b3")
-	)
-	(junction
 		(at 101.6 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2726,12 +2682,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60d20e94-5a58-4d29-afa0-95ee3974956d")
-	)
-	(junction
-		(at 63.5 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67334a6e-7660-4b94-a817-1cdd2b01459f")
 	)
 	(junction
 		(at 154.94 92.71)
@@ -2776,6 +2726,12 @@
 		(uuid "9526d580-5d1c-4c39-8800-df8a7da035a6")
 	)
 	(junction
+		(at 63.5 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99d3043e-0004-4332-ac27-c5eb43db2780")
+	)
+	(junction
 		(at 148.59 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2810,6 +2766,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c137f0d9-2001-451e-ae5c-a63701ceed5d")
+	)
+	(junction
+		(at 60.96 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cca35038-a398-44e8-bb38-a2aeb5c113cd")
+	)
+	(junction
+		(at 60.96 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d71461f3-7283-43c8-a92b-be209a0cadaa")
 	)
 	(junction
 		(at 154.94 100.33)
@@ -3107,7 +3075,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 57.15) (xy 63.5 57.15)
+			(xy 48.26 57.15) (xy 60.96 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3187,17 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 57.15) (xy 83.82 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43418cce-f2a8-4249-bf0e-f68f10abd7e5")
-	)
-	(wire
-		(pts
-			(xy 63.5 57.15) (xy 63.5 85.09)
+			(xy 60.96 57.15) (xy 60.96 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3404,6 +3362,16 @@
 			(type default)
 		)
 		(uuid "7a1b92e4-6434-4ec5-a263-41f174e70c3e")
+	)
+	(wire
+		(pts
+			(xy 60.96 57.15) (xy 83.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9484e5-4d0d-4cc7-8a60-effd341e9429")
 	)
 	(wire
 		(pts
@@ -3697,7 +3665,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 72.39 85.09)
+			(xy 60.96 85.09) (xy 72.39 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4475,6 +4443,86 @@
 				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST_Latching_2coil_Combined_SR")
+		(at 55.88 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "494d5b6e-f249-4582-a43e-9c6c3b93cec0")
+		(property "Reference" "K2"
+			(at 67.31 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 67.31 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ee772d7e-9433-452c-8eb9-b22fa036be89")
+		)
+		(pin "4"
+			(uuid "b7e08bd0-18c6-4c09-98ba-1b8a30baea04")
+		)
+		(pin "1"
+			(uuid "03e7c79c-3a4b-429c-a0bc-71daa0009a57")
+		)
+		(pin "2"
+			(uuid "d4aa995e-6e37-4333-a1c0-439ef6d204bf")
+		)
+		(pin "3"
+			(uuid "ac8fbfa3-4067-4364-9b88-a81f6211cdb8")
+		)
+		(instances
+			(project ""
+				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
+					(reference "K2")
+					(unit 1)
 				)
 			)
 		)
@@ -5487,89 +5535,6 @@
 			(project ""
 				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST_Latching_2coil")
-		(at 55.88 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8f3a3cb-5633-4aa9-a325-fbb74b1169c0")
-		(property "Reference" "K1"
-			(at 30.988 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Relay_SPST_Latching_2coil-NC"
-			(at 21.082 91.44 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.225 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPST, bistable, double-coil, EN50005"
-			(at 55.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "69431226-55a6-4345-9e1c-ce7c29fee3d0")
-		)
-		(pin "A1"
-			(uuid "f123a7e7-8e25-4b36-ba45-4045895eab61")
-		)
-		(pin "B2"
-			(uuid "caf3f153-9fcd-458f-b887-cf540a514f50")
-		)
-		(pin "A2"
-			(uuid "f2a762fe-e635-4e01-a2cb-57caaad5fe6e")
-		)
-		(pin "B1"
-			(uuid "ce2d2852-d508-4693-9515-43db643a6d2b")
-		)
-		(pin "14"
-			(uuid "66798095-3061-460b-8145-d675326a3ef5")
-		)
-		(instances
-			(project ""
-				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
-					(reference "K1")
 					(unit 1)
 				)
 			)
