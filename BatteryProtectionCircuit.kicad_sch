@@ -2885,7 +2885,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 133.35 107.95)
+			(xy 133.35 115.57) (xy 133.35 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3915,7 +3915,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 133.35 92.71)
+			(xy 133.35 99.06) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4855,7 +4855,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 133.35 104.14 0)
+		(at 133.35 102.87 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4864,7 +4864,7 @@
 		(dnp no)
 		(uuid "60a8a3c3-b621-48bf-82c9-f6d612196163")
 		(property "Reference" "R3"
-			(at 135.128 105.1561 0)
+			(at 135.128 103.8861 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4872,8 +4872,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330k"
-			(at 134.874 103.378 0)
+		(property "Value" "94k"
+			(at 134.874 102.108 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4882,7 +4882,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 134.366 103.886 90)
+			(at 134.366 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +4891,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 104.14 0)
+			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4900,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 133.35 104.14 0)
+			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
