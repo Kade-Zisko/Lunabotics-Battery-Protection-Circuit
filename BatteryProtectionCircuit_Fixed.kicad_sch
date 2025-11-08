@@ -2422,7 +2422,7 @@
 		(uuid 71d09941-d4f5-4159-83b1-20a2a553ea71)
 	)
 	(rectangle
-		(start 85.09 82.55)
+		(start 76.2 82.55)
 		(end 127 114.3)
 		(stroke
 			(width 0)
@@ -2477,7 +2477,7 @@
 	)
 	(text "Monotable 555 Timer"
 		(exclude_from_sim no)
-		(at 106.934 81.28 0)
+		(at 98.044 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2526,6 +2526,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02fd6627-a717-4eda-8afd-a6fee22380f2")
+	)
+	(junction
+		(at 111.76 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "039bea2c-7a37-41dc-8cda-2d13f6b6f139")
 	)
 	(junction
 		(at 203.2 104.14)
@@ -2600,7 +2606,7 @@
 		(uuid "5ed0ebca-7376-4473-84e7-eb6499fedf18")
 	)
 	(junction
-		(at 97.79 101.6)
+		(at 88.9 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "630bb645-8938-4661-8070-830a2d267c3c")
@@ -2624,7 +2630,7 @@
 		(uuid "7e94843c-2689-4b42-bbd6-1b4245df03f6")
 	)
 	(junction
-		(at 97.79 96.52)
+		(at 88.9 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8011250e-b600-4051-a60f-48cba165ca43")
@@ -2658,12 +2664,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3893234-4423-459d-9f09-088cbd36ce7f")
-	)
-	(junction
-		(at 116.84 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4e683b0-c03d-4696-9115-fd3359dcb53d")
 	)
 	(junction
 		(at 157.48 129.54)
@@ -2805,6 +2805,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 74.93) (xy 111.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e21f6e9-4f29-4532-a6d1-15759f52206a")
+	)
+	(wire
+		(pts
 			(xy 191.77 80.01) (xy 187.96 80.01)
 		)
 		(stroke
@@ -2825,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 104.14) (xy 97.79 101.6)
+			(xy 88.9 104.14) (xy 88.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2875,6 +2885,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 74.93) (xy 111.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef13f1f-0e8e-4d08-9c47-a658ff4034d2")
+	)
+	(wire
+		(pts
 			(xy 185.42 116.84) (xy 187.96 116.84)
 		)
 		(stroke
@@ -2905,7 +2925,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 101.6) (xy 97.79 96.52)
+			(xy 88.9 101.6) (xy 88.9 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2952,6 +2972,16 @@
 			(type default)
 		)
 		(uuid "2a26de95-74b9-4ff2-b951-73670ec10b9b")
+	)
+	(wire
+		(pts
+			(xy 125.73 74.93) (xy 111.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9b492a-a661-40f6-bca4-9883c1da40c2")
 	)
 	(wire
 		(pts
@@ -3065,16 +3095,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 116.84 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a2792b-2153-4933-9c29-c9604e64edc9")
-	)
-	(wire
-		(pts
 			(xy 135.89 91.44) (xy 146.05 91.44)
 		)
 		(stroke
@@ -3115,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 106.68) (xy 110.49 113.03)
+			(xy 101.6 106.68) (xy 101.6 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3385,17 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 125.73 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dd3110a-8353-4c48-93b1-ba7c403c87b2")
-	)
-	(wire
-		(pts
-			(xy 125.73 71.12) (xy 125.73 67.31)
+			(xy 125.73 67.31) (xy 125.73 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3645,7 +3655,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 111.76) (xy 97.79 113.03)
+			(xy 88.9 111.76) (xy 88.9 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3955,7 +3965,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 91.44) (xy 97.79 91.44)
+			(xy 81.28 91.44) (xy 88.9 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4264,7 +4274,7 @@
 		(uuid "4d99a6f4-d771-4e4d-b521-19a70673b76a")
 	)
 	(label "TR"
-		(at 123.19 91.44 0)
+		(at 114.3 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4284,7 +4294,7 @@
 		(uuid "632be09d-68a5-439b-9fd0-aace83e3f80e")
 	)
 	(label "OUT"
-		(at 90.17 91.44 180)
+		(at 81.28 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4302,6 +4312,16 @@
 			(justify left bottom)
 		)
 		(uuid "687822bc-2813-4af0-90a8-d5450438a693")
+	)
+	(label "VIN"
+		(at 114.3 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f11499a-d368-4cc7-bc38-a6e8f8a853fe")
 	)
 	(label "D51"
 		(at 217.17 128.27 0)
@@ -4384,7 +4404,7 @@
 		(uuid "8e25970c-9754-4fb3-8e05-83b584c57e96")
 	)
 	(label "VIN"
-		(at 90.17 96.52 180)
+		(at 81.28 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4484,7 +4504,7 @@
 		(uuid "b410739f-a0a6-4080-8ec7-db574d7a1d3b")
 	)
 	(label "VIN"
-		(at 110.49 86.36 0)
+		(at 101.6 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4524,7 +4544,7 @@
 		(uuid "be4ca51d-add9-4002-9ee8-e00141dbfb06")
 	)
 	(label "GND"
-		(at 97.79 113.03 0)
+		(at 88.9 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4614,7 +4634,7 @@
 		(uuid "cd7c1d9e-a7e2-4e45-aa0c-8dd5301b8531")
 	)
 	(label "GND"
-		(at 110.49 113.03 0)
+		(at 101.6 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4652,6 +4672,16 @@
 			(justify right bottom)
 		)
 		(uuid "dcf073fe-dfb8-4cb8-8e5c-e296b4a99e25")
+	)
+	(label "GND"
+		(at 121.92 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5e6ed79-c3b2-4bdb-a4f7-1cdbea57e380")
 	)
 	(label "VD"
 		(at 166.37 129.54 0)
@@ -4714,12 +4744,12 @@
 		(uuid "f96ebfb9-c2b7-49f5-bdf1-e4a6205f6cd0")
 	)
 	(label "REL"
-		(at 116.84 76.2 0)
+		(at 111.76 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fe57f32a-f63b-4913-8999-c264865252d5")
 	)
@@ -5272,6 +5302,73 @@
 			(project "BatteryProtectionCircuitWIP"
 				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17cec576-2dbf-42fc-a6b4-a75985b6d57d")
+		(property "Reference" "C1"
+			(at 120.142 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 120.142 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 95.5548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b136cac0-7e91-48aa-ab87-cc3331489d2e")
+		)
+		(pin "1"
+			(uuid "7bae5d1b-91c0-464c-bdc6-33efab0a465b")
+		)
+		(instances
+			(project ""
+				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7031,7 +7128,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.79 107.95 0)
+		(at 88.9 107.95 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7040,7 +7137,7 @@
 		(dnp no)
 		(uuid "c6fa5340-d58c-444d-9d95-601247c84ecf")
 		(property "Reference" "C2"
-			(at 95.25 107.188 0)
+			(at 86.36 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7146,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 95.25 108.966 0)
+			(at 86.36 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7155,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 98.7552 104.14 0)
+			(at 89.8652 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +7164,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 107.95 0)
+			(at 88.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7173,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 97.79 107.95 0)
+			(at 88.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,7 +7760,7 @@
 	)
 	(symbol
 		(lib_id "Timer:LMC555xN")
-		(at 110.49 96.52 0)
+		(at 101.6 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7672,7 +7769,7 @@
 		(dnp no)
 		(uuid "ef0445b4-7948-426c-8f0f-67ee136b5fdd")
 		(property "Reference" "U6"
-			(at 98.298 87.122 0)
+			(at 89.408 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +7778,7 @@
 			)
 		)
 		(property "Value" "LMC555xN"
-			(at 98.298 84.582 0)
+			(at 89.408 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7787,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 93.98 106.68 0)
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7796,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc555.pdf"
-			(at 88.9 106.68 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7805,7 @@
 			)
 		)
 		(property "Description" "CMOS Timer, 555 compatible, PDIP-8"
-			(at 110.49 96.52 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7848,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 93.98 96.52 90)
+		(at 85.09 96.52 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7760,7 +7857,7 @@
 		(dnp no)
 		(uuid "eff98ebc-6c99-4c5e-9779-6d44f99aaa6e")
 		(property "Reference" "R26"
-			(at 93.98 100.838 90)
+			(at 85.09 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7865,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 93.98 98.806 90)
+			(at 85.09 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,7 +7873,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 94.234 97.536 90)
+			(at 85.344 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7785,7 +7882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 96.52 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,7 +7891,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 93.98 96.52 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
