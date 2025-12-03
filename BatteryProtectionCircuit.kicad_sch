@@ -6176,7 +6176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Panasonic_DR-L"
+		(property "Footprint" "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 			(at 146.05 41.91 0)
 			(effects
 				(font
