@@ -1,0 +1,17 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\GithubRepos\Lunabotics-Battery-Protection-Circuit\BatteryProtectionSim.net
+Start Time: Tue Dec  9 22:59:44 2025
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.819 seconds.
+
+Files loaded:
+C:\GithubRepos\Lunabotics-Battery-Protection-Circuit\BatteryProtectionSim.net
+C:\Users\Blaze\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Blaze\AppData\Local\LTspice\lib\sub\LTC.lib
+C:\Users\Blaze\AppData\Local\LTspice\lib\sub\NE555.sub
+
