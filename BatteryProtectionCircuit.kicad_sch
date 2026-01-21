@@ -3011,7 +3011,7 @@
 	)
 	(rectangle
 		(start 185.42 95.25)
-		(end 207.01 116.84)
+		(end 207.01 125.73)
 		(stroke
 			(width 0)
 			(type default)
@@ -4187,16 +4187,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 114.3) (xy 194.31 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a52d7671-541f-4afe-864d-641a43f9dfce")
-	)
-	(wire
-		(pts
 			(xy 240.03 74.93) (xy 240.03 72.39)
 		)
 		(stroke
@@ -5135,16 +5125,6 @@
 		)
 		(uuid "9a8bfd50-b6dd-4ba9-a900-a76542118969")
 	)
-	(label "GND"
-		(at 194.31 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a062d03d-20b9-471d-b78e-c54f8930b1d4")
-	)
 	(label "OUT"
 		(at 177.8 106.68 0)
 		(effects
@@ -5367,7 +5347,7 @@
 	)
 	(global_label "B_IN"
 		(shape output)
-		(at 92.71 39.37 180)
+		(at 92.71 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5375,9 +5355,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0ec876a5-38eb-4ae7-af2b-07ab88dc30ca")
+		(uuid "14568772-5bae-4733-bcb2-63242ca85187")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.5519 39.37 0)
+			(at 85.5519 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "62k"
 			(at 195.834 109.982 0)
 			(effects
 				(font
@@ -5894,6 +5874,75 @@
 			(project "BatteryProtectionCircuit"
 				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0db07a69-d70b-4856-b4da-c083666b5687")
+		(property "Reference" "R2"
+			(at 196.85 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 196.088 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 195.326 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7aabb37f-1d03-46c7-8f54-7a79dd831952")
+		)
+		(pin "1"
+			(uuid "7aeafa72-b631-4211-a64b-111c5f55f16b")
+		)
+		(instances
+			(project ""
+				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6599,6 +6648,73 @@
 			(project "BatteryProtectionCircuit"
 				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3655a695-7959-42a3-b69c-4278f613c66b")
+		(property "Reference" "#PWR01"
+			(at 86.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43785e98-aff6-4d5c-b0cf-ab7e8f28c5df")
+		)
+		(instances
+			(project ""
+				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7585,6 +7701,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 194.31 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "919c77dc-62c3-43d1-a2f9-05d9c776d079")
+		(property "Reference" "#PWR04"
+			(at 194.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.882 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e36f944-b17b-4e46-9afe-ddf4fdf990a2")
+		)
+		(instances
+			(project ""
+				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 120.65 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7941,72 +8122,6 @@
 			(project "BatteryProtectionCircuit"
 				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 46.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc8d6214-63cf-40b6-a0a7-09eadf62f134")
-		(property "Reference" "#PWR01"
-			(at 86.36 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.456 50.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69067f1b-42f3-4b70-b427-1afbfc90e6b8")
-		)
-		(instances
-			(project "BatteryProtectionCircuit"
-				(path "/299dddd9-ac06-42a6-950e-710b9bcf8f9e"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
